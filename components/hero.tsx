@@ -59,11 +59,11 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative h-screen mt-16 overflow-hidden flex items-center justify-center">
+    <div className="relative h-screen mt-4 sm:mt-8 md:mt-16 overflow-hidden flex items-center justify-center">
       <canvas ref={canvasRef} className="absolute inset-0" />
 
       <div className="relative z-10 text-center max-w-4xl px-4 animate-fadeInUp flex flex-col items-center">
-        <div className="mb-4 sm:mb-8 w-24 h-40 sm:w-32 sm:h-52 flex items-center justify-center">
+        <div className="mb-2 sm:mb-4 md:mb-8 w-24 h-40 sm:w-32 sm:h-52 flex items-center justify-center">
           <svg
             width="100%"
             height="100%"

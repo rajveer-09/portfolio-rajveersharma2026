@@ -9,6 +9,7 @@ export default function Certifications() {
   const certifications = [
     {
       id: 1,
+<<<<<<< HEAD
       title: "GFG 160 - Days of Code Challenge",
       issuer: "GeeksforGeeks",
       date: "February 2025",
@@ -18,6 +19,8 @@ export default function Certifications() {
     },
     {
       id: 2,
+=======
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
       title: "Software Engineer Test",
       issuer: "HackerRank",
       date: "January 2025",
@@ -26,7 +29,11 @@ export default function Certifications() {
       link: "https://www.hackerrank.com/certificates/iframe/0289a80dbe8a",
     },
     {
+<<<<<<< HEAD
       id: 3,
+=======
+      id: 2,
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
       title: "Shaastra Programming Contest Finalist",
       issuer: "IIT Madras",
       date: "2025",
@@ -35,6 +42,7 @@ export default function Certifications() {
       link: "https://drive.google.com/file/d/1OLILY-Bb9NC40jwp4eYDxt21oYjlgjjK/view?usp=sharing",
     },
     {
+<<<<<<< HEAD
       id: 4,
       title: "AI for Students: Generative AI Model",
       issuer: "NxtWave",
@@ -45,6 +53,9 @@ export default function Certifications() {
     },
     {
       id: 5,
+=======
+      id: 3,
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
       title: "TCS CodeVita Season 12",
       issuer: "Tata Consultancy Services",
       date: "2024",
@@ -53,6 +64,7 @@ export default function Certifications() {
       link: "https://drive.google.com/file/d/1NSf4QJ8hJo9zWPv4fJUZQLLrnrgU47lL/view",
     },
     {
+<<<<<<< HEAD
       id: 6,
       title: "3000+ DSA Problems Solved",
       issuer: "Codolio",
@@ -63,6 +75,27 @@ export default function Certifications() {
     },
     {
       id: 7,
+=======
+      id: 4,
+      title: "CodeCaze Competition",
+      issuer: "Coding Platform",
+      date: "2024-2025",
+      type: "Competition",
+      description: "Strong competitive programming performance in online coding challenges",
+      link: "https://github.com/rajveer-09",
+    },
+    {
+      id: 5,
+      title: "GFG 160 - Days of Code Challenge",
+      issuer: "GeeksforGeeks",
+      date: "February 2025",
+      type: "Challenge",
+      description: "Completed 160-day coding challenge with consistent DSA problem solving and competitive programming",
+      link: "https://media.geeksforgeeks.org/courses/certificates/bae81410e021de636e4288c30f2cd617.pdf",
+    },
+    {
+      id: 6,
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
       title: "Hacktoberfest 2024",
       issuer: "DigitalOcean",
       date: "October 2024",
@@ -72,6 +105,7 @@ export default function Certifications() {
       link: "https://github.com/rajveer-09",
     },
     {
+<<<<<<< HEAD
       id: 8,
       title: "CodeCaze Competition",
       issuer: "Coding Platform",
@@ -79,6 +113,24 @@ export default function Certifications() {
       type: "Competition",
       description: "AIR 604 among 75,000+ participants globally in competitive coding challenges",
       link: "https://github.com/rajveer-09",
+=======
+      id: 7,
+      title: "3000+ DSA Problems Solved",
+      issuer: "Codolio",
+      date: "2024-2025",
+      type: "Achievement",
+      description: "Comprehensive algorithm and data structures mastery across multiple platforms",
+      link: "https://codolio.com/profile/rajveer-09/problemSolving",
+    },
+    {
+      id: 8,
+      title: "AI for Students: Generative AI Model",
+      issuer: "NxtWave",
+      date: "June 2024",
+      type: "Course",
+      description: "Comprehensive course on building and understanding generative AI models from scratch",
+      link: "https://drive.google.com/file/d/1J-3zmPlIA_XKgGJY-yeydECv1KcK97no/view",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     },
   ]
 
@@ -132,9 +184,14 @@ export default function Certifications() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-sm text-primary hover:text-accent transition-colors cursor-pointer"
+<<<<<<< HEAD
                       onClick={(e) => e.stopPropagation()}
                     >
                       View Certificate/Profile
+=======
+                    >
+                      View Profile/Certificate
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   )}

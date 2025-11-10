@@ -19,8 +19,13 @@ export default function Navbar({ activeSection }: NavbarProps) {
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
+<<<<<<< HEAD
     { id: "achievements", label: "Achievements" },
     { id: "certifications", label: "Certifications" },
+=======
+    { id: "certifications", label: "Certifications" },
+    { id: "achievements", label: "Achievements" },
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     { id: "coding-profiles", label: "Profiles" },
     { id: "contact", label: "Contact" },
   ]

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react"
+=======
+import { Github, Linkedin, Mail, Phone } from "lucide-react"
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
 
 export default function Contact() {
   return (
@@ -14,7 +18,11 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <a
             href="mailto:rajveersharma1107@gmail.com"
+<<<<<<< HEAD
             className="group p-6 bg-card border border-border rounded-lg hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 cursor-pointer"
+=======
+            className="group p-6 bg-card border border-border rounded-lg hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1"
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
           >
             <div className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-primary" />
@@ -29,7 +37,11 @@ export default function Contact() {
 
           <a
             href="tel:+916394022382"
+<<<<<<< HEAD
             className="group p-6 bg-card border border-border rounded-lg hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 cursor-pointer"
+=======
+            className="group p-6 bg-card border border-border rounded-lg hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1"
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
           >
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-primary" />
@@ -62,6 +74,7 @@ export default function Contact() {
           >
             <Linkedin className="w-6 h-6 text-foreground hover:text-primary" />
           </a>
+<<<<<<< HEAD
           <a
             href="https://x.com/rajveer__09"
             target="_blank"
@@ -71,6 +84,8 @@ export default function Contact() {
           >
             <Twitter className="w-6 h-6 text-foreground hover:text-primary" />
           </a>
+=======
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
         </div>
 
         <div className="mt-16 pt-8 border-t border-border text-center text-muted-foreground">

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { Github, Globe } from "lucide-react"
 
+=======
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
 export default function Projects() {
   const projects = [
     {
@@ -13,8 +16,12 @@ export default function Projects() {
       ],
       tech: ["Node.js", "Express.js", "MongoDB", "Inngest", "React", "Gemini AI"],
       accentColor: "primary",
+<<<<<<< HEAD
       live: "https://smartticket-ai-1.onrender.com",
       github: "https://github.com/rajveer-09/SmartTicket-AI",
+=======
+      link: "https://smartticket-ai-1.onrender.com",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     },
     {
       name: "VibeArmor - DSA Learning Platform",
@@ -27,8 +34,12 @@ export default function Projects() {
       ],
       tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Zod"],
       accentColor: "accent",
+<<<<<<< HEAD
       live: "https://vibearmor.com",
       github: "https://github.com/rajveer-09/VibeArmor",
+=======
+      link: "https://vibearmor.com",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     },
     {
       name: "Brainwave - Modern UI/UX Website",
@@ -41,8 +52,12 @@ export default function Projects() {
       ],
       tech: ["React.js", "Vite", "Tailwind CSS", "UI/UX Design", "JavaScript"],
       accentColor: "primary",
+<<<<<<< HEAD
       live: "https://project-brainwave-jan2025.netlify.app/",
       github: "#",
+=======
+      link: "https://project-brainwave-jan2025.netlify.app/",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     },
     {
       name: "Personal Portfolio Website",
@@ -55,8 +70,12 @@ export default function Projects() {
       ],
       tech: ["Next.js", "React", "Tailwind CSS", "TypeScript", "GSAP"],
       accentColor: "accent",
+<<<<<<< HEAD
       live: "https://rajveersharma.netlify.app/",
       github: "#",
+=======
+      link: "#",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
     },
   ]
 
@@ -67,8 +86,16 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
+<<<<<<< HEAD
             <div
               key={idx}
+=======
+            <a
+              key={idx}
+              href={project.link}
+              target={project.link !== "#" ? "_blank" : undefined}
+              rel={project.link !== "#" ? "noopener noreferrer" : undefined}
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
               className={`group p-8 bg-card border border-border rounded-lg hover:border-${project.accentColor === "primary" ? "primary" : "accent"}/50 transition-all hover:shadow-xl hover:shadow-${project.accentColor === "primary" ? "primary" : "accent"}/10 cursor-pointer transform hover:-translate-y-1`}
             >
               <div className="mb-4">
@@ -91,7 +118,11 @@ export default function Projects() {
                 ))}
               </ul>
 
+<<<<<<< HEAD
               <div className="flex flex-wrap gap-2 mb-4">
+=======
+              <div className="flex flex-wrap gap-2">
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
                 {project.tech.map((tech) => (
                   <span
                     key={tech}
@@ -105,6 +136,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+<<<<<<< HEAD
 
               <div className="flex gap-3 flex-wrap">
                 {project.live !== "#" && (
@@ -139,6 +171,9 @@ export default function Projects() {
                 )}
               </div>
             </div>
+=======
+            </a>
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
           ))}
         </div>
       </div>

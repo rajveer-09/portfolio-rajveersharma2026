@@ -10,6 +10,10 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Rajveer Sharma - Software Engineer",
   description: "Full-stack developer specializing in AI, DSA, and competitive programming",
+<<<<<<< HEAD
+=======
+  generator: "v0.app",
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
   icons: {
     icon: [
       {
@@ -27,7 +31,10 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+<<<<<<< HEAD
     generator: 'v0.app'
+=======
+>>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
 }
 
 export default function RootLayout({
