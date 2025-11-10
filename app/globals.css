@@ -49,7 +49,6 @@
   --border: oklch(0.15 0 0);
 }
 
-<<<<<<< HEAD
 /* Replaced dark-black with dark-blue theme */
 [data-theme="dark-red"] {
   --background: oklch(0.08 0 0);
@@ -81,40 +80,6 @@
   --accent: oklch(0.65 0.2 140);
   --border: oklch(0.15 0 0);
   --muted: oklch(0.3 0 0);
-=======
-/* Light Pro Theme - Clean whites and slate blues */
-[data-theme="light-pro"] {
-  --background: oklch(0.98 0.01 250);
-  --foreground: oklch(0.15 0 0);
-  --card: oklch(0.95 0 0);
-  --primary: oklch(0.45 0.2 250);
-  --accent: oklch(0.5 0.18 200);
-  --border: oklch(0.85 0.01 250);
-  --muted: oklch(0.6 0 0);
-  --muted-foreground: oklch(0.5 0 0);
-}
-
-/* Cyberpunk Theme - Neon vibes with magenta and cyan */
-[data-theme="cyberpunk"] {
-  --background: oklch(0.1 0 0);
-  --foreground: oklch(0.95 0 0);
-  --card: oklch(0.15 0.08 280);
-  --primary: oklch(0.65 0.3 280);
-  --accent: oklch(0.7 0.25 160);
-  --border: oklch(0.25 0.1 280);
-  --muted: oklch(0.35 0.05 280);
-}
-
-/* Minimal Theme - Neutral grayscale */
-[data-theme="minimal"] {
-  --background: oklch(0.12 0 0);
-  --foreground: oklch(0.92 0 0);
-  --card: oklch(0.18 0 0);
-  --primary: oklch(0.5 0 0);
-  --accent: oklch(0.65 0 0);
-  --border: oklch(0.25 0 0);
-  --muted: oklch(0.4 0 0);
->>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
   --muted-foreground: oklch(0.65 0 0);
 }
 
@@ -229,7 +194,6 @@ html {
   }
 }
 
-<<<<<<< HEAD
 @keyframes profilePulse {
   0%,
   100% {
@@ -341,8 +305,6 @@ html {
   }
 }
 
-=======
->>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
 .animate-fadeInUp {
   animation: fadeInUp 0.6s ease-out;
 }
@@ -351,7 +313,6 @@ html {
   animation: glow 3s ease-in-out infinite;
 }
 
-<<<<<<< HEAD
 .animate-pulse {
   animation: profilePulse 0.6s ease-in-out;
 }
@@ -369,13 +330,10 @@ html {
   animation-play-state: paused;
 }
 
-=======
->>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
 /* Add cursor pointer utility for interactive elements */
 .cursor-pointer {
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 /* Enhanced background animations with much higher opacity and reduced blur for better visibility */
 @keyframes flowingPath1 {
@@ -482,5 +440,3 @@ html {
   background: var(--primary);
   animation: flowingPath3 24s ease-in-out infinite;
 }
-=======
->>>>>>> a283d9deeb06d9c55018ea37cebdf1b0d25b9981
