@@ -59,7 +59,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-32">
+    <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-8 sm:pt-16 md:pt-32">
       <canvas ref={canvasRef} className="absolute inset-0" />
 
       <div className="relative z-10 text-center max-w-4xl px-4 animate-fadeInUp flex flex-col items-center">
@@ -104,13 +104,13 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-6 sm:mb-8">
-          <span className="px-3 sm:px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm text-primary cursor-pointer hover:bg-primary/20 transition-colors">
+          <span className="px-3 sm:px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm text-primary cursor-pointer hover:bg-primary/20 active:bg-primary/30 transition-colors">
             Full-Stack Developer
           </span>
-          <span className="px-3 sm:px-4 py-2 bg-accent/10 border border-accent/30 rounded-full text-xs sm:text-sm text-accent cursor-pointer hover:bg-accent/20 transition-colors">
+          <span className="px-3 sm:px-4 py-2 bg-accent/10 border border-accent/30 rounded-full text-xs sm:text-sm text-accent cursor-pointer hover:bg-accent/20 active:bg-accent/30 transition-colors">
             AI & ML
           </span>
-          <span className="px-3 sm:px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm text-primary cursor-pointer hover:bg-primary/20 transition-colors">
+          <span className="px-3 sm:px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm text-primary cursor-pointer hover:bg-primary/20 active:bg-primary/30 transition-colors">
             DSA Expert
           </span>
         </div>
@@ -122,13 +122,13 @@ export default function Hero() {
         <div className="flex gap-2 sm:gap-4 justify-center flex-wrap">
           <button
             onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/50 cursor-pointer"
+            className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 active:bg-primary/80 transition-all hover:shadow-lg hover:shadow-primary/50 cursor-pointer"
           >
             View My Work
           </button>
           <button
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base bg-transparent border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-all cursor-pointer"
+            className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base bg-transparent border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 active:bg-primary/20 transition-all cursor-pointer"
           >
             Get in Touch
           </button>
